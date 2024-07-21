@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - workplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAdminLogin();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Supermarket</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin-login.html" class="login-btn">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="admin-panel" id="adminPanel">
+            <h2>Admin Panel</h2>
+            <div class="flag-box">
+                <p>Flag: <span id="flag">flag{Try_to_Chang3_Def4ult_Cr3dentIals}</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 my workplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
